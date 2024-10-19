@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ecf0f1;
+    
+}
+
+
+.hed{
+    background: #30055c; 
+    padding-inline: 13px;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.logo {
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+}
+.campra {
+    
+    height: calc(100vh - 70px);
+    
+   
+}
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: var(--text-color);
+    padding: 20px;
+}
+.sobre  {
+   
+    max-width: 1000px;
+    height: calc(100vh - 70px);
+    margin: 100px auto;
+    padding: 20px;
+    
+    
+}
+h2, h4 {
+        text-align: center;
+        
+        
+    }
+p {
+    text-align: justify;
+    text-indent: 1.5cm;
+    margin: 15px;
+}
+.contacto {
+    
+    height: calc(100vh - 70px);
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+      
+}
+
+/* ----- FOOTER BOX ----- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    background: #ecf0f1cb;
+    padding-block: 40px 60px;
+    margin-top: 10px;
+}
+.top-footer p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-social-icons{
+    display: flex;
+    gap: 50px;   
+}
+.bottom-footer{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+

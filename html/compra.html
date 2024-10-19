@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comprar online</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/comp.css">
+    
+</head>
+<body>
+    <header class="hed"> 
+        <nav class="nav">
+           <a href="" class="logo"> MERCADO ONLINE </a>
+           <ul class="nav-list">
+              <li><a href="../index.html"> Inicio </a></li>
+              <li><a href="sobre.html"> Sobre </a></li>
+              <li><a href="conta.html"> Contactos </a></li>
+           </ul>
+        </nav>
+     </header>
+     <main class="compra">
+        
+         
+         <div class="checkout-panel">
+          <div class="panel-body">
+            <h2 class="title">Confira aqui!</h2>
+         
+            <div class="progress-bar">
+              <div class="step active"></div>
+              <div class="step active"></div>
+              <div class="step"></div>
+              <div class="step"></div>
+            </div>
+         
+            <div class="payment-method">
+              <label for="card" class="method card">
+                <div class="card-logos">
+                  <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                  <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+                </div>
+         
+                <div class="radio-input">
+                  <input id="card" type="radio" name="payment">
+                  Pague  com cartão de crédito
+                </div>
+              </label>
+         
+              <label for="paypal" class="method paypal">
+                <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+                <div class="radio-input">
+                  <input id="paypal" type="radio" name="payment">
+                  Pague  com PayPal
+                </div>
+              </label>
+            </div>
+         
+            <div class="input-fields">
+              <div class="column-1">
+                <label for="cardholder">Nome</label>
+                <input type="text" id="cardholder" />
+         
+                <div class="small-inputs">
+                  <div>
+                    <label for="date">Data de validade</label>
+                    <input type="text" id="date"/>
+                  </div>
+         
+                  <div>
+                    <label for="verification">CVV / CVC *</label>
+                    <input type="password" id="verification"/>
+                  </div>
+                </div>
+         
+              </div>
+              <div class="column-2">
+                <label for="cardnumber">Número do cartão</label>
+                <input type="password" id="cardnumber"/>
+                  
+                <span class="info">* CVV ou CVC é o código de segurança do cartão, um número único de três dígitos no verso do seu cartão, separado do seu número.</span>
+              </div>
+            </div>
+          </div>
+         
+          <div class="panel-footer">
+            <button class="btn back-btn"><a href="../index.html">voltar</a> </button>
+            <button class="btn next-btn">Próximo</button>
+          </div>
+        </div>
+        
+             
+    </main>
+    <script src="../js/compr.js"></script>
+</body>
+</html>
